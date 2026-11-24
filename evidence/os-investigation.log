@@ -1,0 +1,36 @@
+# Operating System Investigation Log (Sanitized)
+# Host OS: macOS on Apple Silicon (arm64)
+
+$ sw_vers
+ProductName:    macOS
+ProductVersion: 27.2.1
+BuildVersion:   26B131
+
+$ uname -srm
+Darwin 27.2.0 arm64
+
+$ id -u
+501 [REDACTED_USER_ID]
+
+$ id -gn
+staff
+
+$ df -h /
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    13Gi   353Gi     4%    487k  3.7G    0%   /
+
+$ ps -eo pid,ppid,%cpu,%mem,comm | head -n 10
+  PID  PPID  %CPU %MEM COMM
+    1     0   0.0  0.1 /sbin/launchd
+  531     1   0.5  0.3 /usr/libexec/logd
+  532     1   0.0  0.0 /usr/libexec/centaurid
+  533     1   0.0  0.0 /usr/libexec/smd
+  534     1   0.0  0.1 /usr/libexec/UserEventAgent
+  536     1   0.0  0.0 /System/Library/Frameworks/CoreServices.framework/.../fseventsd
+  537     1   0.0  0.0 /System/Library/PrivateFrameworks/.../mediaremoted
+  538     1   0.0  0.0 /usr/libexec/uarpd
+  540     1   0.0  0.1 /usr/sbin/systemstats
+
+$ ls -ld . terminal-practice/notes.txt
+drwxr-xr-x@ 16 [REDACTED_USER]  staff  512 Nov 24 15:07 .
+-rw-r--r--@  1 [REDACTED_USER]  staff   42 Nov 24 15:07 terminal-practice/notes.txt
