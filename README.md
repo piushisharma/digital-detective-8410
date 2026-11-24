@@ -34,15 +34,15 @@ Each mission was undertaken sequentially with dedicated testing, evidence gather
 | Folder / Mission | Title | Status | Focus / Highlights |
 | :--- | :--- | :---: | :--- |
 | [`mission-00-setup/`](./mission-00-setup/) | Repository and Workspace Setup | Completed | Environment check (Python 3.9.6, Git 2.50.1), repository structure |
-| [`mission-01-computer-basics/`](./mission-01-computer-basics/) | Computer Fundamentals and IPOS | Pending | IPOS cycle trace, hardware vs. software classification, dedicated systems |
-| [`mission-02-terminal/`](./mission-02-terminal/) | Terminal and File Management | Pending | Safe CLI practice, directory navigation, flags, and pipelines |
-| [`mission-03-operating-system/`](./mission-03-operating-system/) | Operating System, Processes & Permissions | Pending | macOS system inspection, process IDs, file permissions |
-| [`mission-04-programs/`](./mission-04-programs/) | How Programs Run | Pending | Python test program (`hello.py`), compiler vs. interpreter comparison |
-| [`mission-05-numbers-data/`](./mission-05-numbers-data/) | Number Systems, Python and Text Encoding | Pending | Manual conversions with step-by-step working, Python verification, `number_converter.py` |
-| [`mission-06-git-github/`](./mission-06-git-github/) | Git, GitHub, Branches and Pull Requests | Pending | Branching (`update-about`), Pull Request workflow, Git command glossary |
-| [`mission-07-networking/`](./mission-07-networking/) | Computer Networks | Pending | Network topologies, DNS lookup, connectivity tests, web request lifecycle |
-| [`mission-08-final-report/`](./mission-08-final-report/) | Final Review and Submission | Pending | Verification audit against rubric, final checks, submission summary |
-| [`evidence/`](./evidence/) | Evidence & Artifacts | Active | Sanitized terminal logs and practical verification evidence |
+| [`mission-01-computer-basics/`](./mission-01-computer-basics/) | Computer Fundamentals and IPOS | Completed | IPOS cycle trace, hardware vs. software classification, dedicated systems |
+| [`mission-02-terminal/`](./mission-02-terminal/) | Terminal and File Management | Completed | Safe CLI practice, directory navigation, flags, and pipelines |
+| [`mission-03-operating-system/`](./mission-03-operating-system/) | Operating System, Processes & Permissions | Completed | macOS system inspection, process IDs, file permissions |
+| [`mission-04-programs/`](./mission-04-programs/) | How Programs Run | Completed | Python test program (`hello.py`), compiler vs. interpreter comparison |
+| [`mission-05-numbers-data/`](./mission-05-numbers-data/) | Number Systems, Python and Text Encoding | Completed | Manual conversions with step-by-step working, Python verification, `number_converter.py` |
+| [`mission-06-git-github/`](./mission-06-git-github/) | Git, GitHub, Branches and Pull Requests | Completed | Branching (`update-about`), Pull Request workflow, Git command glossary |
+| [`mission-07-networking/`](./mission-07-networking/) | Computer Networks | Completed | Network topologies, DNS lookup, connectivity tests, web request lifecycle |
+| [`mission-08-final-report/`](./mission-08-final-report/) | Final Review and Submission | Completed | Verification audit against rubric, final checks, submission summary |
+| [`evidence/`](./evidence/) | Evidence & Artifacts | Completed | Sanitized terminal logs and practical verification evidence |
 
 ---
 
