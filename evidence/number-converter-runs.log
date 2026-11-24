@@ -1,0 +1,38 @@
+=== Number Converter Test Run 1 ===
+Command: python3 mission-05-numbers-data/number_converter.py
+Input: 13
+Output:
+=== Number Converter ===
+Enter a positive decimal integer: 
+--- Conversion Results ---
+Decimal input:      13
+Binary (with 0b):   0b1101
+Binary (raw bits):  1101
+Hexadecimal:        0xD
+Hex (raw digits):   D
+
+=== Number Converter Test Run 2 ===
+Command: python3 mission-05-numbers-data/number_converter.py
+Input: 25
+Output:
+=== Number Converter ===
+Enter a positive decimal integer: 
+--- Conversion Results ---
+Decimal input:      25
+Binary (with 0b):   0b11001
+Binary (raw bits):  11001
+Hexadecimal:        0x19
+Hex (raw digits):   19
+
+=== Number Converter Test Run 3 ===
+Command: python3 mission-05-numbers-data/number_converter.py
+Input: 42
+Output:
+=== Number Converter ===
+Enter a positive decimal integer: 
+--- Conversion Results ---
+Decimal input:      42
+Binary (with 0b):   0b101010
+Binary (raw bits):  101010
+Hexadecimal:        0x2A
+Hex (raw digits):   2A
