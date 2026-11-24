@@ -1,0 +1,52 @@
+# Terminal Practice Session Log (Sanitized)
+# Environment: macOS Terminal (zsh)
+
+$ which brew
+/opt/homebrew/bin/brew
+
+$ brew --version
+Homebrew 6.0.20
+
+$ pwd
+~/digital-detective-8410
+
+$ mkdir -p terminal-practice
+$ cd terminal-practice
+$ pwd
+~/digital-detective-8410/terminal-practice
+
+# 1. Creating file and writing initial content (overwrite with >)
+$ echo "Initial file content" > notes.txt
+$ cat notes.txt
+Initial file content
+
+# 2. Appending content without overwriting (append with >>)
+$ echo "Appended second line" >> notes.txt
+$ cat notes.txt
+Initial file content
+Appended second line
+
+# 3. Copying vs moving
+$ cp notes.txt copied_notes.txt
+$ mv copied_notes.txt moved_notes.txt
+
+# 4. Exploring flags
+$ ls -lh
+total 16
+-rw-r--r--@ 1 student  staff    42B Nov 24 15:07 moved_notes.txt
+-rw-r--r--@ 1 student  staff    42B Nov 24 15:07 notes.txt
+
+$ ls -la
+total 16
+drwxr-xr-x@  4 student  staff  128 Nov 24 15:07 .
+drwxr-xr-x@ 16 student  staff  512 Nov 24 15:07 ..
+-rw-r--r--@  1 student  staff   42 Nov 24 15:07 moved_notes.txt
+-rw-r--r--@  1 student  staff   42 Nov 24 15:07 notes.txt
+
+# 5. Piping directory output into head
+$ ls -lah .. | head -n 5
+total 24
+drwxr-xr-x@ 16 student  staff   512B Nov 24 15:07 .
+drwxr-x---+ 62 student  staff   1.9K Nov 24 13:56 ..
+drwxr-xr-x  13 student  staff   416B Nov 24 15:06 .git
+-rw-r--r--@  1 student  staff    29B Nov 24 15:05 .gitignore
