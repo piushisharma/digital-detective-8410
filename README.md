@@ -29,6 +29,15 @@ Each mission was undertaken sequentially with dedicated testing, evidence gather
 
 ---
 
+## My Learning
+Through the hands-on missions in this assignment, I learned:
+1. **How hardware and software collaborate:** I traced an everyday typing activity through the IPOS cycle and saw how the CPU, volatile RAM, and persistent SSD work together under operating system coordination.
+2. **Command line power and safety:** I learned to navigate files, use pipes to chain commands, and safely manage files using standard flags without relying on a graphical window.
+3. **Data representation at the hardware level:** I learned how numbers are converted between decimal, binary, and hexadecimal, and why computers use UTF-8 encoding to represent human text using binary bytes.
+
+
+---
+
 ## Mission Navigation Index
 
 | Folder / Mission | Title | Status | Focus / Highlights |
