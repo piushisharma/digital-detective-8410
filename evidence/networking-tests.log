@@ -1,0 +1,33 @@
+# Networking Practical Diagnostics Log (Sanitized)
+# Target: example.com (Public RFC 2606 domain)
+
+$ dig example.com
+; <<>> DiG 9.10.6 <<>> example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20264
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		63	IN	A	172.66.147.243
+example.com.		63	IN	A	104.20.23.154
+
+;; Query time: 39 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Tue Nov 24 15:23:22 IST 2026
+;; MSG SIZE  rcvd: 72
+
+$ ping -c 3 example.com
+PING example.com (172.66.147.243): 56 data bytes
+64 bytes from 172.66.147.243: icmp_seq=0 ttl=58 time=17.158 ms
+64 bytes from 172.66.147.243: icmp_seq=1 ttl=58 time=5.662 ms
+64 bytes from 172.66.147.243: icmp_seq=2 ttl=58 time=45.276 ms
+
+--- example.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.662/22.699/45.276/16.640 ms
