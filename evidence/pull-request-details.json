@@ -1,0 +1,13 @@
+{
+  "pull_request_number": 1,
+  "html_url": "https://github.com/piushisharma/digital-detective-8410/pull/1",
+  "title": "Add My Learning section to root README",
+  "state": "open",
+  "head_branch": "update-about",
+  "base_branch": "main",
+  "author": "piushisharma",
+  "changed_files": 1,
+  "additions": 9,
+  "deletions": 0,
+  "merged": false
+}
